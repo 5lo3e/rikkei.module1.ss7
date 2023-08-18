@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: work;
+}
+
+nav {
+    padding: 17px 187px 18px 187px;
+    display: flex;
+    color: #FCFEFE;
+    font-family: work;
+    font-size: 18px;
+    background-color: #1F2B6C;
+    gap: 276px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    gap: 10px;
+    padding: 13px 35px;
+    background-color: #BFD2F8;
+    border-radius: 50px;
+    border: none;
+
+}
+
+nav .Search span {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+}
+
+@font-face {
+    font-family: work;
+    src: url(./Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Yeseva;
+    src: url(./Yeseva_One/YesevaOne-Regular.ttf);
+}
+.Search {
+    position: relative;
+}
+
+.headcard {
+    display: flex;
+
+}
+
+.medical {
+    padding: 20px 150px 20px 187px;
+
+}
+
+.headcard-icon {
+    grid-area: one;
+    max-width: 51px;
+}
+
+.text2 {
+    grid-area: two;
+
+}
+
+.text3 {
+    grid-area: three;
+    min-width: 182px;
+
+}
+
+.headcard ul li {
+    display: grid;
+    grid-template-areas:
+        "one two"
+        "one three";
+
+    grid-template-rows: 19px 19px;
+
+
+}
+
+.headcard ul {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.headcard ul li img {
+    padding: 5px;
+}
+
+.emgc {
+    min-width: 150px;
+}
+
+section {
+    background-image: url('./Img/Y\ sĩ.png');
+    background-size: cover;
+    width: 1366px;
+    height: 550px;
+    position: relative;
+}
+.group1{
+    max-width: 520px;
+    position: absolute;
+    top: 160px;
+  left: 187px;
+  gap: 4px;
+}
+.first-text{
+    color: #159EEC;
+    font-weight: 700;
+    font-size: 18px;
+}
+.second-text{
+    color: #1F2B6C;
+    font-weight: 400;
+    font-size: 48px;
+    font-family: Yeseva;
+}
